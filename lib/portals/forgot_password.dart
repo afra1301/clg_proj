@@ -146,6 +146,7 @@ class _ForgotPasswordViewState extends State<ForgotPasswordView> {
                         child: const Text(
                           "Reset Password",
                           style: TextStyle(
+                            color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         )),

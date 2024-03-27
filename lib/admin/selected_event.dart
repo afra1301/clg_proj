@@ -250,6 +250,7 @@ class _SelectedEventState extends State<SelectedEvent> {
                         child: const Text(
                           "Get Users in location",
                           style: TextStyle(
+                            color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -301,6 +302,7 @@ class _SelectedEventState extends State<SelectedEvent> {
                         child: const Text(
                           "Get All Users",
                           style: TextStyle(
+                            color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -350,6 +352,7 @@ class _SelectedEventState extends State<SelectedEvent> {
                         child: const Text(
                           "Block users",
                           style: TextStyle(
+                            color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         ),

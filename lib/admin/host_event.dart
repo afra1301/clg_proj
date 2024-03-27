@@ -548,6 +548,7 @@ class _HostEventState extends State<HostEvent> {
                     child: const Text(
                       "Give daywise description",
                       style: TextStyle(
+                        color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
                     )),
@@ -863,6 +864,7 @@ class _HostEventState extends State<HostEvent> {
                       child: const Text(
                         "HOST",
                         style: TextStyle(
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -892,7 +894,13 @@ class _HostEventState extends State<HostEvent> {
                 borderRadius: BorderRadius.circular(20),
               ),
             ),
-            child: const Text("Go to My Events"),
+            child: const Text("Go to My Events",
+            style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+            
+            ),
           ),
         ],
       ),

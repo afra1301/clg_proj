@@ -226,6 +226,7 @@ class _DeleteAccountState extends State<DeleteAccount> {
                   child: const Text(
                     "DELETE ACCOUNT",
                     style: TextStyle(
+                      color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
                   )),

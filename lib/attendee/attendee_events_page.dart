@@ -317,6 +317,7 @@ class _EventsState extends State<Events> {
                                               child: const Text(
                                                 "More Info",
                                                 style: TextStyle(
+                                                  color: Colors.white,
                                                   fontWeight: FontWeight.bold,
                                                 ),
                                               )),

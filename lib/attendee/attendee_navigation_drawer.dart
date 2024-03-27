@@ -69,7 +69,7 @@ class _AttendeeNavigationDrawerState extends State<AttendeeNavigationDrawer> {
             const DrawerHeader(
               child: Center(
                 child: Text(
-                  "QRify ME",
+                  "CampusConnect",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 30,

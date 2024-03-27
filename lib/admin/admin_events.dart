@@ -542,6 +542,7 @@ class _AdminEventsState extends State<AdminEvents> {
                                             child: const Text(
                                               "SELECT",
                                               style: TextStyle(
+                                                color: Colors.white,
                                                 fontWeight: FontWeight.bold,
                                               ),
                                             ),

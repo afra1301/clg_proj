@@ -548,6 +548,7 @@ class _EventInfoState extends State<EventInfo> {
                                     child: const Text(
                                       "REGISTER",
                                       style: TextStyle(
+                                        color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     )),
