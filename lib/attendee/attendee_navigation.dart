@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:main_project/attendee/geolocation.dart';
+import 'package:main_project/attendee/homepage.dart';
 import 'package:main_project/attendee/qr_storing.dart';
 import 'package:main_project/attendee/give_feedback.dart';
 import 'package:main_project/attendee/receive_notifications.dart';
@@ -57,6 +58,9 @@ class _AttendeeNavigationState extends State<AttendeeNavigation> {
             title: widget.title,
             description: widget.description,
           ),
+          HomePage(
+          ),
+
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -80,6 +84,10 @@ class _AttendeeNavigationState extends State<AttendeeNavigation> {
           BottomNavigationBarItem(
             icon: Icon(Icons.feedback),
             label: "Feedback",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.chat),
+            label: "Chat",
           ),
         ],
         selectedItemColor: Colors.deepPurple,
