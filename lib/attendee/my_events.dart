@@ -210,6 +210,7 @@ class _MyEventsState extends State<MyEvents> {
                                     child: const Text(
                                       "SELECT",
                                       style: TextStyle(
+                                        color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),

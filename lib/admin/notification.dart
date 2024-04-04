@@ -272,6 +272,7 @@ class _NotificationsState extends State<Notifications> {
                     child: const Text(
                       "Send to all users",
                       style: TextStyle(
+                        color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
                     )),
@@ -309,6 +310,7 @@ class _NotificationsState extends State<Notifications> {
                     child: const Text(
                       "Send to users who are inside location",
                       style: TextStyle(
+                        color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
                     )),

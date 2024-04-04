@@ -322,6 +322,7 @@ class _DeregisterState extends State<Deregister> {
                         child: const Text(
                           "SUBMIT",
                           style: TextStyle(
+                            color: Colors.white,
                             fontWeight: FontWeight.bold,
                           ),
                         )),

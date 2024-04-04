@@ -93,6 +93,7 @@ class _AskFeedbackState extends State<AskFeedback> {
                       child: const Text(
                         "Get Feedbacks",
                         style: TextStyle(
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
